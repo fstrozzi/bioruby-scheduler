@@ -1,5 +1,6 @@
 # rcov generated
 coverage
+coverage.data
 
 # rdoc generated
 rdoc
@@ -10,7 +11,7 @@ doc
 
 # bundler
 .bundle
-
+Gemfile.lock
 # jeweler generated
 pkg
 
@@ -46,6 +47,3 @@ pkg
 
 # For rubinius:
 #*.rbc
-# Ignore Gemfile.lock for gems. See http://yehudakatz.com/2010/12/16/clarifying-the-roles-of-the-gemspec-and-gemfile/
-Gemfile.lock
-*.gemspec

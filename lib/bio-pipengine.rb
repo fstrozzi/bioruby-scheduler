@@ -8,5 +8,12 @@
 #
 # In this file only require other files. Avoid other source code.
 
-require 'bio-pipengine/pipengine.rb'
+
+
+require 'java'
+require 'yaml'
+
+$CLASSPATH << File.expand_path(File.join(File.dirname __FILE__,"..","ext","hazelcast-all-2.0.3.jar"))
+
+import com.hazelcast.core.Hazelcast;
 

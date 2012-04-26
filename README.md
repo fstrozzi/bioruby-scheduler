@@ -2,7 +2,7 @@
 
 [![Build Status](https://secure.travis-ci.org/fstrozzi/bioruby-pipengine.png)](http://travis-ci.org/fstrozzi/bioruby-pipengine)
 
-Full description goes here
+A distributed pipeline management engine for JRuby
 
 Note: this software is under active development!
 
