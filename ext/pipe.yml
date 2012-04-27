@@ -1,0 +1,3 @@
+pipeline:
+ - command: time sleep 60
+ - command: time sleep 60

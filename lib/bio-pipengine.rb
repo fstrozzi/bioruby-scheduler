@@ -13,7 +13,14 @@
 require 'java'
 require 'yaml'
 
-$CLASSPATH << File.expand_path(File.join(File.dirname __FILE__,"..","ext","hazelcast-all-2.0.3.jar"))
+#local require
+require "../bio-pipengine/task.rb"
+require "../bio-pipengine/pipeline.rb"
+
+#$CLASSPATH << File.expand_path(File.join(File.dirname __FILE__,"..","ext","hazelcast-all-2.0.3.jar"))
+$CLASSPATH << "../../ext/hazelcast-all-2.0.3.jar"
+
 
 import com.hazelcast.core.Hazelcast;
-
+import java.util.concurrent.BlockingQueue;
+import java.util.concurrent.TimeUnit;
